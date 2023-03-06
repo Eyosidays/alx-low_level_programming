@@ -12,14 +12,4 @@ int main(void)
 	printf("Size of a float: %i byte(s)", sizeof(float));
 	return (0);
 }
-int main(void)
-{
-	(int)(float)(char) i;
-	printf("%d", sizeof(i));
-	return (0);
-}
-int main(void)
-{
-	printf("sizeof(int) = %d bytes\n", (int) sizeof(int));
-	return (0);
-}
+
